@@ -37,12 +37,12 @@ class Motherboard extends Product {
 
     private int ramSlots;
     private int cardSlots;
-    private int bios;
+    private String bios;
     public Motherboard(String model, String manufacturer) {
         super(model, manufacturer);
     }
 
-    public Motherboard(String model, String manufacturer, int ramSlots, int cardSlots, int bios) {
+    public Motherboard(String model, String manufacturer, int ramSlots, int cardSlots, String bios) {
         super(model, manufacturer);
         this.ramSlots = ramSlots;
         this.cardSlots = cardSlots;
